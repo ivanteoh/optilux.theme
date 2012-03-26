@@ -3,8 +3,8 @@ Name: optilux.theme
 Version: 2.0
 Summary: Theme for the Optilux website
 Home-page: http://svn.plone.org/svn/collective/
-Author: UNKNOWN
-Author-email: UNKNOWN
+Author: Ivan Teoh
+Author-email: ivan.teoh@gmail.com
 License: gpl
 Description: .. contents::
         
@@ -32,4 +32,5 @@ Description: .. contents::
           []
         
 Platform: UNKNOWN
+Classifier: Framework :: Plone
 Classifier: Programming Language :: Python

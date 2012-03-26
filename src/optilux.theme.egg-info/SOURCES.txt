@@ -12,4 +12,3 @@ src/optilux.theme.egg-info/top_level.txt
 src/optilux/theme/__init__.py
 src/optilux/theme/testing.py
 src/optilux/theme/tests/__init__.py
-src/optilux/theme/tests/test_example.py

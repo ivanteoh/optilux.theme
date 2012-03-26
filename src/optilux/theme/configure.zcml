@@ -8,18 +8,18 @@
     <includeDependencies package="." />
   
     <plone:static
-        directory="resources"
+        directory="static"
         type="theme"
     />
 
 
-  <genericsetup:registerProfile
-      name="default"
-      title="Optilux Theme"
-      directory="profiles/default"
-      description="Extension profile for the "Optilux" Plone theme."
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      />
-  <!-- -*- extra stuff goes here -*- -->
+    <genericsetup:registerProfile
+        name="default"
+        title="Optilux Theme"
+        directory="profiles/default"
+        description='Extension profile for the "Optilux" Plone theme.'
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+    <!-- -*- extra stuff goes here -*- -->
   
 </configure>

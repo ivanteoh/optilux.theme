@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    
+    <!-- Rules applying to standard Plone pages -->
+    <rules css:if-content="#visual-portal-wrapper">
+        <theme href="index.html" />
+        <drop theme="/html/head/meta" />
+        <drop theme="/html/head/title" />
+        <after content="/html/head/meta"
+            theme-children="/html/head" />
+        <after content="/html/head/title"
+            theme-children="/html/head" />
+        <copy attributes="class id dir"
+            content="/html/body"
+            theme="/html/body" />
+</rules>
+</rules>
