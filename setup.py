@@ -21,11 +21,12 @@ setup(name='optilux.theme',
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
+        "Framework :: Plone",
         "Programming Language :: Python",
         ],
       keywords='',
-      author='',
-      author_email='',
+      author='Ivan Teoh',
+      author_email='ivan.teoh@gmail.com',
       url='http://svn.plone.org/svn/collective/',
       license='gpl',
       packages=find_packages('src'),
@@ -36,6 +37,7 @@ setup(name='optilux.theme',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'plone.app.theming',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
