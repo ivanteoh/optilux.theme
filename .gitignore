@@ -1,0 +1,4 @@
+*.pyc
+*.pyo
+*.egg
+optilux.policy.egg-info

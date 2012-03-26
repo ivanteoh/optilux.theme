@@ -1,0 +1,35 @@
+Metadata-Version: 1.0
+Name: optilux.theme
+Version: 2.0
+Summary: Theme for the Optilux website
+Home-page: http://svn.plone.org/svn/collective/
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: gpl
+Description: .. contents::
+        
+        Introduction
+        ============
+        
+        
+        Contributors
+        ============
+        
+        Note:  place names and roles of the people who contribute to this package
+               in this file, one to a line, like so:
+        
+        - Joe Schmoe, Original Author
+        - Bob Slob, contributed monkey patches
+        - Jane Main, wrote flibberty module
+        
+        Changelog
+        =========
+        
+        2.0dev (unreleased)
+        -------------------
+        
+        - Package created using zopeskel
+          []
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
