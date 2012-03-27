@@ -10,5 +10,8 @@ src/optilux.theme.egg-info/not-zip-safe
 src/optilux.theme.egg-info/requires.txt
 src/optilux.theme.egg-info/top_level.txt
 src/optilux/theme/__init__.py
+src/optilux/theme/interfaces.py
+src/optilux/theme/layout.py
 src/optilux/theme/testing.py
 src/optilux/theme/tests/__init__.py
+src/optilux/theme/tests/test.py

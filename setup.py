@@ -38,6 +38,7 @@ setup(name='optilux.theme',
           'setuptools',
           # -*- Extra requirements: -*-
           'plone.app.theming',
+          'plone.app.themingplugins',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
