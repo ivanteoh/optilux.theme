@@ -1,4 +1,4 @@
 *.pyc
 *.pyo
 *.egg
-optilux.theme.egg-info
+*.egg-info
